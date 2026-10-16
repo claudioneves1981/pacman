@@ -907,7 +907,7 @@ def main():
         pygame.display.flip()
 
     save_highscore(game.highscore)
-    pygame,quit()
+    pygame.quit()
 
 if __name__ == "__main__":
     main()
